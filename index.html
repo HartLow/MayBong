@@ -135,6 +135,18 @@
         </div>
     </section>
 
+    <section class="news-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Tin Tức Mới Nhất</h2>
+                <p class="section-subtitle">Cập nhật những tin tức và sự kiện mới nhất từ Mây Bồng</p>
+            </div>
+            <div class="row justify-content-center" id="news-container">
+                <!-- News posts will be loaded here -->
+            </div>
+        </div>
+    </section>
+
     <section class="testimonial-section py-5">
         <div class="container">
             <h2 class="text-center mb-5 section-title" data-aos="fade-up">Khách hàng nói gì về chúng tôi</h2>
@@ -274,6 +286,27 @@
             </div>
         </div>
     </section>
+
+    <!-- Post Detail Modal -->
+    <div class="modal fade" id="postDetailModal" tabindex="-1" aria-labelledby="postDetailModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="postDetailModalLabel">Chi tiết bài viết</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3 id="postDetailTitle"></h3>
+                    <p class="text-muted"><small id="postDetailDate"></small></p>
+                    <div id="postDetailImage" class="mb-3"></div>
+                    <div id="postDetailContent"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="newsletter-section py-5">
         <div class="container">
@@ -478,6 +511,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <!-- Custom JS -->
     <script src="js/main.js"></script>
+    <script src="js/news-loader.js"></script>
     <script>
         // Initialize AOS
         AOS.init();

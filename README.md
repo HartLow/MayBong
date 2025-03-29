@@ -1,18 +1,19 @@
-# Mây Bông - Website Bán Trà Sữa
-
-Mây Bông là một website bán trà sữa với thiết kế hiện đại, lấy cảm hứng từ giao diện của Coca-Cola. Website được xây dựng để giới thiệu và bán các sản phẩm trà sữa của thương hiệu Mây Bông.
+# Website Mây Bồng - Trà Sữa Premium
 
 ## Tính Năng
+- ✨ Giao diện hiện đại, responsive
+- 📱 Tối ưu hiển thị trên mọi thiết bị
+- 📰 Tích hợp trang tin tức tự quản lý
+- 🛍️ Danh sách sản phẩm & combo hấp dẫn 
+- 🎯 Landing page thu hút
 
-- Giao diện hiện đại, đẹp mắt với màu sắc chủ đạo: xanh be, vàng nâu
-- Trang chủ giới thiệu các sản phẩm nổi bật và thông tin về thương hiệu
-- Trang khám phá giới thiệu về câu chuyện thương hiệu và nguyên liệu
-- Trang trải nghiệm hương vị giới thiệu chi tiết về các dòng sản phẩm
-- Trang khuyến mãi cập nhật các chương trình ưu đãi
-- Responsive design, hiển thị tốt trên các thiết bị di động
+## Tech Stack
+- HTML5, CSS3, JavaScript (ES6+)
+- Bootstrap 5.3
+- AOS Animation
+- PHP & MySQL
 
-## Cấu Trúc Thư Mục
-
+## Cấu Trúc
 ```
 WebMayBong/
 ├── css/
@@ -46,13 +47,6 @@ WebMayBong/
 - **Fanpage**: Mây Bông Tea
 - **Hotline**: 0988888888
 - **Địa chỉ**: 79 Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, Hà Nội
-
-## Công Nghệ Sử Dụng
-
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Font Awesome (icons)
 
 ## Hướng Dẫn Phát Triển
 
