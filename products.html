@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm - Mây Bồng</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/logo.png" alt="Mây Bồng Logo" class="logo-img me-2">
+                    <span class="brand-text">Mây Bồng</span>
+                </a>
+                <div class="mobile-brand-text d-lg-none">
+                    <h1 class="mb-0">Mây Bồng</h1>
+                    <span class="tagline">Trà sữa thơm ngon</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto d-flex flex-wrap justify-content-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="bi bi-house-fill me-1"></i>Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html"><i class="bi bi-info-circle-fill me-1"></i>Mây Bồng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="business.html"><i class="bi bi-briefcase-fill me-1"></i>Doanh nghiệp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="products.html"><i class="bi bi-bag-fill me-1"></i>Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promotions.html"><i class="bi bi-tags-fill me-1"></i>Khuyến mãi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html"><i class="bi bi-envelope-fill me-1"></i>Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="page-banner position-relative overflow-hidden">
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="wave-container">
+            <div class="wave wave1"></div>
+        </div>
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 text-center text-white" data-aos="fade-up">
+                    <h1 class="display-4 fw-bold mb-3">Sản Phẩm</h1>
+                    <p class="lead">Khám phá thế giới hương vị đặc trưng của Mây Bồng</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="products-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Sản phẩm</h2>
+                <p class="section-subtitle">Thưởng thức hương vị đặc biệt từ Mây Bồng</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 mx-auto" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/sua1.png" alt="Trà sữa Mây Bồng">
+                            <div class="product-tag">Bán chạy</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Trà sữa Mây Bồng</h3>
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="rating-count">(124)</span>
+                            </div>
+                            <p class="product-description">Sự kết hợp hoàn hảo giữa trà Ô Long Đà Lạt và hoa nhài Quảng Nam, mang đến hương vị thơm ngon khó cưỡng.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="product-price">59.000đ</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-bs-toggle="modal" data-bs-target="#purchaseModal" data-product="Trà sữa Mây Bồng" data-price="59000" data-image="images/sua1.png">
+                                    <i class="bi bi-cart-plus-fill me-1"></i>Thêm vào giỏ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="combo-section py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Combo nhóm</h2>
+                <p class="section-subtitle">Tiết kiệm đến hơn 35% với combo dành cho nhóm</p>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/sua1.png" alt="Combo 3 ly">
+                            <div class="product-tag product-tag-sale">Tiết kiệm 15%</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Combo 3 ly Mây Bồng</h3>
+                            <p class="product-description">3 ly trà sữa Mây Bồng size M kèm 3 topping tùy chọn.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="product-price">150.000đ</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-bs-toggle="modal" data-bs-target="#purchaseModal" data-product="Combo 3 ly Mây Bồng" data-price="150000" data-image="images/sua1.png">
+                                    <i class="bi bi-cart-plus-fill me-1"></i>Thêm vào giỏ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/sua1.png" alt="Combo 5 ly">
+                            <div class="product-tag product-tag-sale">Tiết kiệm 25%</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Combo 5 ly Mây Bồng</h3>
+                            <p class="product-description">5 ly trà sữa Mây Bồng size M kèm 5 topping tùy chọn.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="product-price">220.000đ</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-bs-toggle="modal" data-bs-target="#purchaseModal" data-product="Combo 5 ly Mây Bồng" data-price="220000" data-image="images/sua1.png">
+                                    <i class="bi bi-cart-plus-fill me-1"></i>Thêm vào giỏ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/sua1.png" alt="Combo 10 ly">
+                            <div class="product-tag product-tag-sale">Tiết kiệm 35%</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Combo 10 ly Mây Bồng</h3>
+                            <p class="product-description">10 ly trà sữa Mây Bồng size M kèm 10 topping tùy chọn.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="product-price">380.000đ</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-bs-toggle="modal" data-bs-target="#purchaseModal" data-product="Combo 10 ly Mây Bồng" data-price="380000" data-image="images/sua1.png">
+                                    <i class="bi bi-cart-plus-fill me-1"></i>Thêm vào giỏ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/logo.png" alt="Mây Bồng Logo" class="logo-img me-2">
+                        <h4 class="mb-0 fw-bold">Mây Bồng</h4>
+                    </div>
+                    <p>Thương hiệu trà sữa cao cấp với hương vị độc đáo và nguyên liệu tự nhiên.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Liên kết nhanh</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Thông tin liên hệ</h4>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 79 Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, Hà Nội</p>
+                    <p><i class="fas fa-phone me-2"></i> Hotline: 0988 888 888</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@maybong.vn</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Kết nối với chúng tôi</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/maybongtea" target="_blank" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="mailto:info@maybong.vn" class="social-icon">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="mb-2">Đăng ký nhận tin</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email của bạn">
+                            <button class="btn btn-primary" type="button">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Mây Bồng Tea. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="purchaseModalLabel">Xác nhận đặt hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="purchase-product-info mb-4">
+                        <div class="d-flex align-items-center">
+                            <div class="purchase-product-image me-3">
+                                <img src="" alt="Product" id="modalProductImage" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 id="modalProductName">Tên sản phẩm</h4>
+                                <div class="d-flex align-items-center">
+                                    <span class="price me-2" id="modalProductPrice">0đ</span>
+                                    <span class="original-price" id="modalProductOriginalPrice"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="purchaseForm">
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Số lượng:</label>
+                            <div class="quantity-selector">
+                                <button type="button" class="quantity-btn minus-btn"><i class="bi bi-dash"></i></button>
+                                <input type="number" class="form-control quantity-input" id="quantity" value="1" min="1" max="10">
+                                <button type="button" class="quantity-btn plus-btn"><i class="bi bi-plus"></i></button>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="size" class="form-label">Kích cỡ:</label>
+                            <select class="form-select" id="size">
+                                <option value="M">M (Vừa)</option>
+                                <option value="L">L (Lớn) +5.000đ</option>
+                                <option value="XL">XL (Siêu lớn) +10.000đ</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Topping:</label>
+                            <div class="topping-options">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="oolong" id="oolong">
+                                    <label class="form-check-label" for="oolong">
+                                        Trà Ô Long (+10.000đ)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="sugar" class="form-label">Đường:</label>
+                            <select class="form-select" id="sugar">
+                                <option value="100">100% (Ngọt)</option>
+                                <option value="70" selected>70% (Vừa)</option>
+                                <option value="50">50% (Ít ngọt)</option>
+                                <option value="30">30% (Rất ít ngọt)</option>
+                                <option value="0">0% (Không đường)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="ice" class="form-label">Đá:</label>
+                            <select class="form-select" id="ice">
+                                <option value="100">100% (Nhiều đá)</option>
+                                <option value="70" selected>70% (Vừa)</option>
+                                <option value="50">50% (Ít đá)</option>
+                                <option value="30">30% (Rất ít đá)</option>
+                                <option value="0">0% (Không đá)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="note" class="form-label">Ghi chú:</label>
+                            <textarea class="form-control" id="note" rows="2" placeholder="Yêu cầu đặc biệt..."></textarea>
+                        </div>
+                    </form>
+                    
+                    <div class="order-summary mt-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Tạm tính:</span>
+                            <span id="subtotal">45.000đ</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Phụ thu (size, topping):</span>
+                            <span id="extras">0đ</span>
+                        </div>
+                        <div class="d-flex justify-content-between fw-bold">
+                            <span>Tổng cộng:</span>
+                            <span id="total">45.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-primary" id="confirmPurchase">
+                        <i class="bi bi-check2-circle me-1"></i>Xác nhận đặt hàng
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purchase Success Modal -->
+    <div class="modal fade" id="purchaseSuccessModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center py-4">
+                    <div class="success-icon mb-3">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                    <h4 class="mb-3">Đặt hàng thành công!</h4>
+                    <p>Cảm ơn bạn đã đặt hàng tại Mây Bồng.</p>
+                    <p class="mb-0">Đơn hàng của bạn sẽ được xử lý trong thời gian sớm nhất.</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init();
+
+        // JavaScript for product purchase functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const purchaseModal = document.getElementById('purchaseModal');
+            const quantityInput = document.getElementById('quantity');
+            const minusBtn = document.querySelector('.minus-btn');
+            const plusBtn = document.querySelector('.plus-btn');
+            const sizeSelect = document.getElementById('size');
+            const toppingCheckboxes = document.querySelectorAll('.topping-options input[type="checkbox"]');
+            const confirmPurchaseBtn = document.getElementById('confirmPurchase');
+            
+            let currentProductPrice = 0;
+            
+            // Quantity buttons event listeners
+            minusBtn.addEventListener('click', function() {
+                if (quantityInput.value > 1) {
+                    quantityInput.value = parseInt(quantityInput.value) - 1;
+                    updatePriceCalculation(currentProductPrice);
+                }
+            });
+            
+            plusBtn.addEventListener('click', function() {
+                if (quantityInput.value < 10) {
+                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                    updatePriceCalculation(currentProductPrice);
+                }
+            });
+            
+            // Listen for manual quantity changes
+            quantityInput.addEventListener('change', function() {
+                updatePriceCalculation(currentProductPrice);
+            });
+            
+            // Listen for size changes
+            sizeSelect.addEventListener('change', function() {
+                updatePriceCalculation(currentProductPrice);
+            });
+            
+            // Listen for topping changes
+            toppingCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', function() {
+                    updatePriceCalculation(currentProductPrice);
+                });
+            });
+            
+            // Handle purchase confirmation
+            confirmPurchaseBtn.addEventListener('click', function() {
+                const purchaseSuccessModal = new bootstrap.Modal(document.getElementById('purchaseSuccessModal'));
+                const purchaseModalInstance = bootstrap.Modal.getInstance(purchaseModal);
+                
+                purchaseModalInstance.hide();
+                purchaseSuccessModal.show();
+            });
+            
+            purchaseModal.addEventListener('show.bs.modal', function(event) {
+                const button = event.relatedTarget;
+                const product = button.getAttribute('data-product');
+                const price = parseInt(button.getAttribute('data-price'));
+                const image = button.getAttribute('data-image');
+                const originalPrice = button.hasAttribute('data-original-price') ? 
+                    parseInt(button.getAttribute('data-original-price')) : null;
+                
+                currentProductPrice = price;
+                
+                document.getElementById('modalProductName').textContent = product;
+                document.getElementById('modalProductPrice').textContent = formatPrice(price) + 'đ';
+                document.getElementById('modalProductImage').src = image;
+                
+                const originalPriceEl = document.getElementById('modalProductOriginalPrice');
+                if (originalPrice) {
+                    originalPriceEl.textContent = formatPrice(originalPrice) + 'đ';
+                    originalPriceEl.style.display = 'inline';
+                } else {
+                    originalPriceEl.style.display = 'none';
+                }
+                
+                document.getElementById('purchaseForm').reset();
+                quantityInput.value = 1;
+                updatePriceCalculation(price);
+            });
+            
+            function updatePriceCalculation(basePrice) {
+                const quantity = parseInt(quantityInput.value);
+                const subtotal = basePrice * quantity;
+                let extras = 0;
+                
+                const size = sizeSelect.value;
+                if (size === 'L') extras += 5000 * quantity;
+                if (size === 'XL') extras += 10000 * quantity;
+                
+                // Only check Trà Ô Long topping
+                const oolongChecked = document.getElementById('oolong').checked;
+                if (oolongChecked) {
+                    extras += 10000 * quantity;
+                }
+                
+                document.getElementById('subtotal').textContent = formatPrice(subtotal) + 'đ';
+                document.getElementById('extras').textContent = formatPrice(extras) + 'đ';
+                document.getElementById('total').textContent = formatPrice(subtotal + extras) + 'đ';
+            }
+            
+            function formatPrice(price) {
+                return price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mây Bồng - Trà sữa thơm ngon</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="index.html">
+                    <img src="images/logo.png" alt="Mây Bồng Logo" class="logo-img me-2">
+                    <span class="brand-text">Mây Bồng</span>
+                </a>
+                <div class="mobile-brand-text d-lg-none">
+                    <h1 class="mb-0">Mây Bồng</h1>
+                    <span class="tagline">Trà sữa thơm ngon</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">Trang chủ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Mây Bồng</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Sản phẩm</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="promotions.html">Khuyến mãi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="business.html">Doanh nghiệp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero position-relative overflow-hidden">
+        <div class="bubbles">
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+            <div class="bubble"></div>
+        </div>
+        <div class="wave-container">
+            <div class="wave wave1"></div>
+        </div>
+        <div class="container py-5">
+            <div class="row align-items-center">
+                <div class="col-lg-5 text-white mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="display-3 fw-bold mb-3 text-center">Mây Bồng</h1>
+                    <p class="lead fst-italic mb-4 text-center">"Hương vị trà sữa mang đến những cảm giác thân quen nhưng đầy mới lạ cho từng khoảnh khắc."</p>
+                    <div class="d-flex flex-wrap gap-3 justify-content-center">
+                        <a href="products.html" class="btn btn-primary btn-lg pulse-btn">
+                            <i class="bi bi-cart-fill me-2"></i>Mua ngay
+                        </a>
+                        <a href="about.html" class="btn btn-outline-light btn-lg hover-btn">
+                            <i class="bi bi-arrow-right-circle-fill me-2"></i>Tìm hiểu thêm
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-7 text-center" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="position-relative trasua-container">
+                        <div class="circle-backdrop"></div>
+                        <img src="images/sua1.png" alt="Mây Bồng Bubble Tea" class="img-fluid floating hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products py-5">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-title">Sản phẩm</h2>
+                <p class="section-subtitle">Khám phá hương vị đặc biệt từ Mây Bồng</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/sua1.png" alt="Trà sữa Mây Bồng">
+                            <div class="product-tag">Bán chạy</div>
+                        </div>
+                        <div class="product-info">
+                            <h3 class="product-title">Trà sữa Mây Bồng</h3>
+                            <div class="product-rating">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <span class="rating-count">(124)</span>
+                            </div>
+                            <p class="product-description">Sự kết hợp hoàn hảo giữa trà Ô Long Đà Lạt và hoa nhài Quảng Nam, mang đến hương vị thơm ngon khó cưỡng.</p>
+                            <div class="d-flex justify-content-between align-items-center mt-3">
+                                <span class="product-price">59.000đ</span>
+                                <button class="btn btn-primary btn-sm add-to-cart" data-bs-toggle="modal" data-bs-target="#purchaseModal" data-product="Trà sữa Mây Bồng" data-price="59000" data-image="images/sua1.png">
+                                    <i class="bi bi-cart-plus-fill me-1"></i>Thêm vào giỏ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-section py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title" data-aos="fade-up">Khách hàng nói gì về chúng tôi</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <div class="testimonial-tabs">
+                        <ul class="nav nav-pills mb-4 justify-content-center" id="testimonialTabs" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active testimonial-tab" id="testimonial1-tab" data-bs-toggle="pill" data-bs-target="#testimonial1" type="button" role="tab" aria-controls="testimonial1" aria-selected="true">
+                                    <div class="testimonial-avatar">
+                                        <i class="bi bi-person-circle"></i>
+                                    </div>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link testimonial-tab" id="testimonial2-tab" data-bs-toggle="pill" data-bs-target="#testimonial2" type="button" role="tab" aria-controls="testimonial2" aria-selected="false">
+                                    <div class="testimonial-avatar">
+                                        <i class="bi bi-person-circle"></i>
+                                    </div>
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link testimonial-tab" id="testimonial3-tab" data-bs-toggle="pill" data-bs-target="#testimonial3" type="button" role="tab" aria-controls="testimonial3" aria-selected="false">
+                                    <div class="testimonial-avatar">
+                                        <i class="bi bi-person-circle"></i>
+                                    </div>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="testimonialTabsContent">
+                            <div class="tab-pane fade show active" id="testimonial1" role="tabpanel" aria-labelledby="testimonial1-tab">
+                                <div class="testimonial-item text-center p-4">
+                                    <p class="testimonial-text">"Trà sữa Mây Bồng là món đồ uống yêu thích của tôi mỗi ngày. Hương vị đậm đà, trân châu dẻo và dịch vụ tuyệt vời. Tôi đã giới thiệu cho tất cả bạn bè của mình!"</p>
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <h5 class="mb-1">Lù Văn Hải</h5>
+                                        <p class="text-muted small mb-0">Khách hàng thân thiết</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="testimonial2" role="tabpanel" aria-labelledby="testimonial2-tab">
+                                <div class="testimonial-item text-center p-4">
+                                    <p class="testimonial-text">"Tôi rất thích vị ngọt thanh của trà sữa Mây Bồng. Chân trâu ô long ở đây là ngon nhất mà tôi từng thử. Nhân viên rất thân thiện và nhiệt tình!"</p>
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <h5 class="mb-1">Lò Phương Thùy</h5>
+                                        <p class="text-muted small mb-0">Sinh viên</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="testimonial3" role="tabpanel" aria-labelledby="testimonial3-tab">
+                                <div class="testimonial-item text-center p-4">
+                                    <p class="testimonial-text">"Mỗi khi cần tỉnh táo để làm việc, tôi luôn chọn Mây Bồng. Tôi đặc biệt thích mùi hoa nhài của trà sữa. Không gian quán cũng rất thoải mái để ngồi làm việc."</p>
+                                    <div class="testimonial-rating mb-3">
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star"></i>
+                                    </div>
+                                    <div class="testimonial-author">
+                                        <h5 class="mb-1">Nguyễn Tiến Dũng</h5>
+                                        <p class="text-muted small mb-0">Nhân viên văn phòng</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="counter-section py-5 text-white text-center">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="counter-item">
+                        <div class="counter-icon">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <h3 class="counter" data-count="50">0</h3>
+                        <p>Cửa hàng</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="counter-item">
+                        <div class="counter-icon">
+                            <i class="fas fa-mug-hot"></i>
+                        </div>
+                        <h3 class="counter" data-count="30">0</h3>
+                        <p>Hương vị</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="counter-item">
+                        <div class="counter-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3 class="counter" data-count="100000">0</h3>
+                        <p>Khách hàng</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="counter-item">
+                        <div class="counter-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3 class="counter" data-count="15">0</h3>
+                        <p>Giải thưởng</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="promotions-preview py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title text-white" data-aos="fade-up">Khuyến mãi đặc biệt</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <p class="text-white mb-4">Giảm 20% cho tất cả các loại trà sữa từ ngày 01/06 đến 30/06</p>
+                    <a href="promotions.html" class="btn btn-primary pulse-btn">Xem ngay</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center" data-aos="zoom-in">
+                    <h2 class="mb-4 text-white">Đăng ký nhận thông tin</h2>
+                    <p class="text-white mb-4">Nhập email của bạn để nhận thông tin về các chương trình khuyến mãi mới nhất từ Mây Bồng</p>
+                    <form class="newsletter-form">
+                        <div class="input-group mb-3">
+                            <input type="email" class="form-control" placeholder="Email của bạn" required>
+                            <button class="btn btn-light" type="submit">Đăng ký</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="d-flex align-items-center mb-3">
+                        <img src="images/logo.png" alt="Mây Bồng Logo" class="logo-img me-2">
+                        <h4 class="mb-0 fw-bold">Mây Bồng</h4>
+                    </div>
+                    <p>Thương hiệu trà sữa cao cấp với hương vị độc đáo và nguyên liệu tự nhiên.</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Liên kết nhanh</h4>
+                    <ul class="list-unstyled footer-links">
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="products.html">Sản phẩm</a></li>
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Thông tin liên hệ</h4>
+                    <p><i class="fas fa-map-marker-alt me-2"></i> 79 Hồ Tùng Mậu, Mai Dịch, Cầu Giấy, Hà Nội</p>
+                    <p><i class="fas fa-phone me-2"></i> Hotline: 0988 888 888</p>
+                    <p><i class="fas fa-envelope me-2"></i> info@maybong.vn</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="mb-3 fw-bold">Kết nối với chúng tôi</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/maybongtea" target="_blank" class="social-icon">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="mailto:info@maybong.vn" class="social-icon">
+                            <i class="bi bi-envelope"></i>
+                        </a>
+                    </div>
+                    <div class="mt-4">
+                        <p class="mb-2">Đăng ký nhận tin</p>
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Email của bạn">
+                            <button class="btn btn-primary" type="button">Gửi</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Mây Bồng Tea. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Purchase Modal -->
+    <div class="modal fade" id="purchaseModal" tabindex="-1" aria-labelledby="purchaseModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="purchaseModalLabel">Xác nhận đặt hàng</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="purchase-product-info mb-4">
+                        <div class="d-flex align-items-center">
+                            <div class="purchase-product-image me-3">
+                                <img src="" alt="Product" id="modalProductImage" class="img-fluid">
+                            </div>
+                            <div>
+                                <h4 id="modalProductName">Tên sản phẩm</h4>
+                                <div class="d-flex align-items-center">
+                                    <span class="price me-2" id="modalProductPrice">0đ</span>
+                                    <span class="original-price" id="modalProductOriginalPrice"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="purchaseForm">
+                        <div class="mb-3">
+                            <label for="quantity" class="form-label">Số lượng:</label>
+                            <div class="quantity-selector">
+                                <button type="button" class="quantity-btn minus-btn"><i class="bi bi-dash"></i></button>
+                                <input type="number" class="form-control quantity-input" id="quantity" value="1" min="1" max="10">
+                                <button type="button" class="quantity-btn plus-btn"><i class="bi bi-plus"></i></button>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="size" class="form-label">Kích cỡ:</label>
+                            <select class="form-select" id="size">
+                                <option value="M">M (Vừa)</option>
+                                <option value="L">L (Lớn) +5.000đ</option>
+                                <option value="XL">XL (Siêu lớn) +10.000đ</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label class="form-label">Topping:</label>
+                            <div class="topping-options">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="oolong" id="oolong">
+                                    <label class="form-check-label" for="oolong">
+                                        Trà Ô Long (+10.000đ)
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="sugar" class="form-label">Đường:</label>
+                            <select class="form-select" id="sugar">
+                                <option value="100">100% (Ngọt)</option>
+                                <option value="70" selected>70% (Vừa)</option>
+                                <option value="50">50% (Ít ngọt)</option>
+                                <option value="30">30% (Rất ít ngọt)</option>
+                                <option value="0">0% (Không đường)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="ice" class="form-label">Đá:</label>
+                            <select class="form-select" id="ice">
+                                <option value="100">100% (Nhiều đá)</option>
+                                <option value="70" selected>70% (Vừa)</option>
+                                <option value="50">50% (Ít đá)</option>
+                                <option value="30">30% (Rất ít đá)</option>
+                                <option value="0">0% (Không đá)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="mb-3">
+                            <label for="note" class="form-label">Ghi chú:</label>
+                            <textarea class="form-control" id="note" rows="2" placeholder="Yêu cầu đặc biệt..."></textarea>
+                        </div>
+                    </form>
+                    
+                    <div class="order-summary mt-4">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Tạm tính:</span>
+                            <span id="subtotal">45.000đ</span>
+                        </div>
+                        <div class="d-flex justify-content-between mb-2">
+                            <span>Phụ thu (size, topping):</span>
+                            <span id="extras">0đ</span>
+                        </div>
+                        <div class="d-flex justify-content-between fw-bold">
+                            <span>Tổng cộng:</span>
+                            <span id="total">45.000đ</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Hủy</button>
+                    <button type="button" class="btn btn-primary" id="confirmPurchase">
+                        <i class="bi bi-check2-circle me-1"></i>Xác nhận đặt hàng
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Purchase Success Modal -->
+    <div class="modal fade" id="purchaseSuccessModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center py-4">
+                    <div class="success-icon mb-3">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </div>
+                    <h4 class="mb-3">Đặt hàng thành công!</h4>
+                    <p>Cảm ơn bạn đã đặt hàng tại Mây Bồng.</p>
+                    <p class="mb-0">Đơn hàng của bạn sẽ được xử lý trong thời gian sớm nhất.</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Đóng</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init();
+        
+        // Purchase Modal Functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const purchaseModal = document.getElementById('purchaseModal');
+            const quantityInput = document.getElementById('quantity');
+            const minusBtn = document.querySelector('.minus-btn');
+            const plusBtn = document.querySelector('.plus-btn');
+            const sizeSelect = document.getElementById('size');
+            const toppingCheckboxes = document.querySelectorAll('.topping-options input[type="checkbox"]');
+            const subtotalEl = document.getElementById('subtotal');
+            const extrasEl = document.getElementById('extras');
+            const totalEl = document.getElementById('total');
+            const confirmPurchaseBtn = document.getElementById('confirmPurchase');
+            
+            let productPrice = 0;
+            let productName = '';
+            
+            // Update modal when opened
+            purchaseModal.addEventListener('show.bs.modal', function(event) {
+                const button = event.relatedTarget;
+                productName = button.getAttribute('data-product') || '';
+                productPrice = parseInt(button.getAttribute('data-price')) || 0;
+                const productImage = button.getAttribute('data-image') || '';
+                const originalPrice = button.getAttribute('data-original-price');
+                
+                // Set product info in modal
+                document.getElementById('modalProductName').textContent = productName;
+                document.getElementById('modalProductPrice').textContent = formatPrice(productPrice) + 'đ';
+                document.getElementById('modalProductImage').src = productImage;
+                
+                // Set original price if exists
+                const originalPriceEl = document.getElementById('modalProductOriginalPrice');
+                if (originalPrice) {
+                    originalPriceEl.textContent = formatPrice(parseInt(originalPrice)) + 'đ';
+                    originalPriceEl.style.display = 'inline';
+                } else {
+                    originalPriceEl.style.display = 'none';
+                }
+                
+                // Reset form
+                document.getElementById('purchaseForm').reset();
+                quantityInput.value = 1;
+                
+                // Update price calculations
+                updateTotalPrice();
+            });
+            
+            // Quantity buttons
+            minusBtn.addEventListener('click', function() {
+                if (quantityInput.value > 1) {
+                    quantityInput.value = parseInt(quantityInput.value) - 1;
+                    updateTotalPrice();
+                }
+            });
+            
+            plusBtn.addEventListener('click', function() {
+                if (quantityInput.value < 10) {
+                    quantityInput.value = parseInt(quantityInput.value) + 1;
+                    updateTotalPrice();
+                }
+            });
+            
+            // Update price when inputs change
+            quantityInput.addEventListener('change', updateTotalPrice);
+            sizeSelect.addEventListener('change', updateTotalPrice);
+            toppingCheckboxes.forEach(checkbox => {
+                checkbox.addEventListener('change', updateTotalPrice);
+            });
+            
+            // Calculate and update total price
+            function updateTotalPrice() {
+                // Ensure quantity is a valid number
+                const quantity = parseInt(quantityInput.value) || 1;
+                // Ensure productPrice is a valid number
+                const subtotal = (productPrice || 0) * quantity;
+                
+                // Calculate extras
+                let extras = 0;
+                
+                // Size extras
+                const size = sizeSelect.value;
+                if (size === 'L') extras += 5000 * quantity;
+                if (size === 'XL') extras += 10000 * quantity;
+                
+                // Topping extras - only Trà Ô Long left
+                const oolongChecked = document.getElementById('oolong').checked;
+                if (oolongChecked) {
+                    extras += 10000 * quantity;
+                }
+                
+                const total = subtotal + extras;
+                
+                // Update display
+                subtotalEl.textContent = formatPrice(subtotal) + 'đ';
+                extrasEl.textContent = formatPrice(extras) + 'đ';
+                totalEl.textContent = formatPrice(total) + 'đ';
+            }
+            
+            // Format price with thousand separators
+            function formatPrice(price) {
+                return (price || 0).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+            }
+            
+            // Handle purchase confirmation
+            confirmPurchaseBtn.addEventListener('click', function() {
+                const purchaseSuccessModal = new bootstrap.Modal(document.getElementById('purchaseSuccessModal'));
+                const purchaseModalInstance = bootstrap.Modal.getInstance(purchaseModal);
+                
+                purchaseModalInstance.hide();
+                purchaseSuccessModal.show();
+            });
+        });
+    </script>
+</body>
+</html>
